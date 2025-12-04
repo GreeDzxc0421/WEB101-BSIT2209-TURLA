@@ -6,7 +6,7 @@
     <title>Profile Card</title>
     <style>
         body {
-            background-color: #cceeff; /* Light blue background */
+            background-color: #cceeff; 
             display: flex;
             justify-content: center;
             align-items: center;
@@ -23,6 +23,15 @@
             width: 90%;
             text-align: center;
         }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            display: block;
+            border: 3px solid #cceeff;
+        }
         .name {
             font-size: 1.8em;
             font-weight: bold;
@@ -31,20 +40,27 @@
         .title {
             font-size: 1.2em;
             margin-bottom: 15px;
+            color: #555;
         }
         .about {
             font-size: 0.95em;
             margin-bottom: 15px;
             font-style: italic;
+            color: #444;
+            line-height: 1.4;
         }
         .info {
             font-size: 0.9em;
             margin: 5px 0;
+            color: #333;
         }
     </style>
 </head>
 <body>
     <div class="card">
+        
+        <img src="6d25f8ab-2c10-4cac-84a8-c280d6547964.jpg" alt="Profile Picture" class="profile-img">
+        
         <div class="name">Turla, Francois B.</div>
         <div class="title">Assistant Developer</div>
         <div class="about">"Passionate about coding and problem-solving, I assist in developing efficient software solutions. Eager to learn and grow in the tech industry, I focus on teamwork and continuous improvement."</div>
